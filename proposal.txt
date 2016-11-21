@@ -1,0 +1,8 @@
+Hardware Design Testing with Software Automated Test Generation
+
+Ali Moezgholami
+
+Several approaches for automatic test case generation have been proposed before; however, many of them refers very long time ago. Also, the basic hardware description languages, Verilog and VHDL, are very old and sometimes inconsistent. However, the idea of synthesizing hardware from software code came into the reality; specifically SystemC and Berkeley Chisel, while the first tries gets C program as input and the second takes Scala code.
+Since testing is a hot topic in Software Engineering research and there exists some frameworks for automatic test generation (e.g. Randoop); it will be a good question to ask if we can exploit such tools for testing programs which could be interpreted as synthesizable hardware description. Therefore, we might be able to generate automatic test case for our hardware design.
+Note that the scope of this problem is limited to functional testing. It does not have to do anything for nonfunctional requirement of hardware design such as efficiency, placement and routing, timing analysis, etc. Moreover, we will only consider the input program files and we will not care if they could be synthesized or not.
+Finally, note that this approach may fail; but it will not be too risky to take it as a course project.
